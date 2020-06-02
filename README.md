@@ -15,7 +15,7 @@ Second major part in this project is an IIS server which contains webpages that 
 * Visualize 3D city model of the whole USA (nearly 125 million buildings) with LOD1 building models on a Web-Based platform to access and examine it effortlessly. 
 
 # Data Used in this project
-* This study is conducted for data of “The United States”. 
+* This study is conducted on the data of CityModel Lod1 data of “The United States”. 
 * Source of Data: https://github.com/opencitymodel/opencitymodel
 
 # Prerequisites
