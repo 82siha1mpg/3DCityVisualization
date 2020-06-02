@@ -16,7 +16,7 @@ Second major part in this project is an IIS server which contains webpages that 
 
 # Data Used in this project
 * This study is conducted on the data of CityModel Lod1 data of “The United States”. 
-* Source of Data: https://github.com/opencitymodel/opencitymodel
+* Source of the data: https://github.com/opencitymodel/opencitymodel
 
 # Prerequisites
 There are certain prerequirements that needs to be fulfilled. These are as follows: 
