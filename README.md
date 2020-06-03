@@ -23,8 +23,9 @@ There are certain prerequirements that needs to be fulfilled. These are as follo
 1. **FME** 
 2. **Python** 
 3. **PyQT5**
-3. **JavaScript**
-4. **HTML**
+4. **JavaScript**
+5. **C#**
+6. **HTML**
 
 # Methods
 * Following methodology has been used to implement this project:
@@ -36,7 +37,7 @@ There are certain prerequirements that needs to be fulfilled. These are as follo
   **Conversion:** This portion of python software allows to convert CityGML files to Cesium 3D Tiles. It requires FME model, input CityGML file(s) and output folder location. There are additional options provided. To understand this functionality, it is important to mention here that there are total 51 states data which further contains 5026 files. So, it is practically impossible for machines to convert all of the data at once. So this additional options are provided for the convenience of the user. If the user possess a very powerful machine they can opt to convert **All** models at once, or **State-Wise**, and  in the worst case if the machine is not very powerful then **Cluster{State-wise}** option can group certain input files to process together. 
   
  # WebServer
-The web server consist of two components: Webpage (based on HTML and Javascript) and Webservice (based on C#). The function of the webservice is to grab the corresponding '.json' URLs of 3D tilesets from the server and visualize them on the webpage as requested by the user. The visualization is done as one State at a time due to large amount of data. The front-end of the website is developed using JavaScript with CesiumJS Library, few functionalities are defined to make the webpage interactive.  
+The web server consist of two components: Webpage (based on HTML and Javascript) and Webservice (based on C#). The function of the webservice is to grab the corresponding '.json' file URLs of 3D tilesets from the server and visualize them on the webpage as requested by the user. The visualization is done as one State at a time due to large amount of data. The front-end of the website is developed using JavaScript with CesiumJS Library, few functionalities are defined to make the webpage interactive.  
  
  ![](Image/WebPage.jpg)
  
